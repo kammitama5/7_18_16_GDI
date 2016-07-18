@@ -81,3 +81,17 @@ doRecipe(Recipe);
 
 //=======================================================================================
 
+//Object Methods
+
+var fluffyTheDog = {
+	age: 2,
+	furColor: 'black',
+	bowow: function(){
+		console.log('bow wow');
+	}
+};
+
+// Dot notation to call object methods
+fluffyTheDog.bowow();
+
+//====================================================================================

@@ -4,18 +4,32 @@
 
 var giraffe = {
 	colour: 'brown',
-	eats: 'grass'
+	eats: 'grass',
+	licks: function() {
+		console.log('The giraffe licks Krystal.');
+	}
 };
 
+giraffe.licks();
+
 var giraffeColour = giraffe.colour;
+
+//====================================================================================
 
 
 var coyote = {
 	colour: 'grey',
-	eats: 'people'
+	eats: 'people',
+	eats: function(){
+		console.log('The coyote eats chickens.');
+	}
 };
 
+coyote.eats();
+
 var coyoteEats = coyote.eats;
+
+//====================================================================================
 
 var cat = {
 	colour: 'orange',

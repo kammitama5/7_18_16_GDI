@@ -60,3 +60,24 @@ function describeThings(thing){
 describeThings(Things);
 
 //=======================================================================================
+
+//Favourite Recipe
+
+var Recipe = {
+
+	name: 'Curried Crab',
+	ingredients: ['potato', 'onion', 'garlic', 'curry', 'Blue Crab', 'coconut milk'],
+	servings: 2
+}
+
+function doRecipe(recipe){
+	console.log('To make ' + recipe.name + ' You need: ' + recipe.ingredients[0]
+		+ ', '  + recipe.ingredients[1] + ', '  + recipe.ingredients[2] + ', '  + recipe.ingredients[3]
+		+ ', '  + recipe.ingredients[4] + ', '  + recipe.ingredients[5] + '. This recipe is for ' +
+		recipe.servings + ' servings.');
+}
+
+doRecipe(Recipe);
+
+//=======================================================================================
+
